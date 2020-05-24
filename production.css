@@ -1,0 +1,148 @@
+@charset "UTF-8";
+* {
+  padding: 0;
+  margin: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  color: #4d4c4c;
+  font-family: "Yu Gothic", YuGothic, Verdana, 'Hiragino Kaku Gothic ProN','Hiragino Kaku Gothic Pro', 'ヒラギノ角ゴ Pro W3', 'メイリオ', Meiryo, sans-serif;
+}
+
+.wrapper {
+  max-width: 100%;
+  background-size: cover;
+}
+
+header {
+  width: 100%;
+}
+
+.header-container {
+  position: relative;
+  width: 100%;
+}
+
+.header-menu {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  background: #000;
+  height: 80px;
+  opacity: .6;
+}
+
+.header-menu .fa-home {
+  position: absolute;
+  top: 0;
+  left: 0;
+  line-height: 80px;
+  width: 36px;
+  height: 32px;
+  padding-left: 30px;
+  color: #fff;
+  font-size: 35px;
+}
+
+.header-list {
+  list-style: none;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.header-list li {
+  margin-right: 50px;
+  font-size: 20px;
+  font-weight: bold;
+  text-decoration: none;
+  line-height: 80px;
+}
+
+.header-list a {
+  text-decoration: none;
+  color: #fff;
+  font-weight: bold;
+}
+
+.side-bar-menu {
+  display: none;
+}
+
+.summary-container {
+  width: 60%;
+  margin: 50px auto;
+  text-align: center;
+  background: #f8f8f8;
+  padding: 10px 0;
+}
+
+.summary-container h3 {
+  margin-bottom: 10px;
+  font-size: 25px;
+}
+
+.summary-container li {
+  display: block;
+}
+
+.summary-container a {
+  display: inline-block;
+  margin: 10px;
+}
+
+.summary-container button {
+  border-radius: 5px;
+  padding: 5px 10px;
+  outline: none;
+  letter-spacing: .05em;
+  color: #c7c7c7;
+  text-shadow: 1px 1px 1px #5e5c5c;
+  font-size: 18px;
+  font-weight: bold;
+  font-family: italic;
+}
+
+.summary-container button:active {
+  -webkit-transform: translateY(1px);
+          transform: translateY(1px);
+}
+
+.image {
+  padding-bottom: 40px;
+}
+
+.image1 {
+  width: 70%;
+  height: 500px;
+  margin: 0 auto;
+}
+
+.image1 img {
+  display: block;
+  width: 100%;
+  height: auto;
+  margin-bottom: 50px;
+  -webkit-box-shadow: 2px 2px 6px 3px;
+          box-shadow: 2px 2px 6px 3px;
+}
+
+.image2 {
+  width: 70%;
+  margin: 0 auto;
+  display: block;
+}
+
+.image2 img {
+  width: 100%;
+  height: 25rem;
+  margin-bottom: 20px;
+  -webkit-box-shadow: 2px 2px 6px 3px;
+          box-shadow: 2px 2px 6px 3px;
+}
+/*# sourceMappingURL=production.css.map */

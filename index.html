@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="main2.css">
+  <link rel="stylesheet" href="responsive2.css">
+  <link href="https://use.fontawesome.com/releases/v5.13.0/css/all.css" rel="stylesheet">
+  <title>Portfolio</title>
+
+</head>
+<body>
+  <div class='wrapper'>
+    <div class='header'>
+      <div class='header-container'>
+        <div class="header-menu">
+          <a href=""><i class="fas fa-home"></i></a>
+          <ul class='header-list'>
+            <li><a href="#profile" class="link">プロフィール</a></li>
+            <li><a href="#skill" class="link">スキル</a></li>
+            <li><a href="#production" class="link">制作物</a></li>
+            <li><a href="#contact" class="link">お問い合わせ</a></li>
+          </ul>
+        </div>
+        <div class="header-image">
+          <h1>PORTFOLIO</h1>
+        </div>
+      </div>
+
+      <!-- Side bar -->
+      <div class="side-bar">
+        <div class="side-bar-menu">
+          <ul>
+            <li><a href="index.html" class="link">ホーム</a></li>
+            <li><a href="#profile" class="link">プロフィール</a></li>
+            <li><a href="#skill" class="link">スキル</a></li>
+            <li><a href="#production" class="link">制作物</a></li>
+            <li><a href="#contact" class="link">お問い合わせ</a></li>
+          </ul>
+        </div>
+        <div class="button">
+          <div></div>
+          <div></div>
+          <div></div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Profile -->
+    <div class='profile'>
+      <h2 id="profile">PROFILE</h2>
+      <div class='profile-container'>
+        <div class="profile-content">
+          <img src="./hungary.jpg" alt="hungary">
+          <p>
+            はじめまして。Jinです。<br>大学卒業後、地元の自動車部品製造会社に3年間勤務。その後、公務員として働きながらプログラミングの学習を開始。
+            <br>
+            現在は、HTML5、CSS3、Javascript等を用いたフロントエンド開発を得意としています。
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <!-- Skill -->
+    <div class='skill'>
+      <div class='skill-container'>
+        <h2 id="skill">SKILL</h2>
+        <table>
+          <tr>
+            <td class='table-content'>HTML5</td>
+            <td class='value'>
+              <span class='black'></span>
+              <span class='black'></span>
+              <span class='black'></span>
+              <span class='white'></span>
+              <span class='white'></span>
+            </td>
+          </tr>
+          <tr>
+            <td class='table-content'>CSS3</td>
+            <td class='value'>
+              <span class='black'></span>
+              <span class='black'></span>
+              <span class='black'></span>
+              <span class='white'></span>
+              <span class='white'></span>
+            </td>
+          </tr>            
+          <tr>
+            <td class='table-content'>Bootstrap4</td>
+            <td class='value'>
+              <span class='black'></span>
+              <span class='black'></span>
+              <span class='black'></span>
+              <span class='white'></span>
+              <span class='white'></span>
+            </td>
+          </tr>
+          <tr>
+            <td class='table-content'>Javascript</td>
+            <td class='value'>
+              <span class='black'></span>
+              <span class='black'></span>
+              <span class='white'></span>
+              <span class='white'></span>
+              <span class='white'></span>
+            </td>
+          </tr>
+          <tr>
+            <td class='table-content'>jQuery</td>
+            <td class='value'>
+              <span class='black'></span>
+              <span class='black'></span>
+              <span class='white'></span>
+              <span class='white'></span>
+              <span class='white'></span>
+            </td>
+          </tr>
+        </table>
+      </div>
+    </div>
+
+    <!-- production -->
+    <div class='production'>
+      <div class='production-container' id="production">
+        <h2>PRODUCTION</h2>
+        <div class="production-content">
+          <div class="product-inner">
+            <a href="./production1.html" class="image-inner">
+              <img src="./airbnb1.jpg" alt="airbnb">
+              <div class="image-hover">
+                <p>Airbnb 模写制作</p>
+              </div>
+            </a>
+            <a href="./production2.html" class="image-inner">
+              <img src="./isara1.jpg" alt="isara">
+              <div class="image-hover">
+                <p>Isara.life 模写制作</p>
+              </div>
+            </a>
+          </div>
+        </div>
+        <a href="https://drive.google.com/drive/folders/1XroNbZ4MKCg9BzeuJVk2jJp_tx45ZbwQ?usp=sharing" class="production-link" target="_blank">
+          <button class="production-button">制作物一覧</button>
+        </a>
+      </div>
+    </div>
+
+    <footer id="contact">
+      <div class="form">
+        <form action="https://docs.google.com/forms/u/0/d/e/1FAIpQLScJ6KzZ-T-2Cv4TuEiZntmnUwl1x_PNilM4-VP4_6XzRaVfIw/formResponse" method="post">
+          <p>お名前</p>
+          <input type="text" name="entry.2005620554" placeholder="Your name">
+          <p>メールアドレス</p>
+          <input type="email" name="entry.1045781291" placeholder="Your email">
+          <p>内容</p>
+          <textarea name="entry.535645954" placeholder="Message">
+  
+          </textarea>
+          <button class="send" type="submit" name="submit">送信</button>
+        </form>
+      </div>
+
+      <div class="copyright">
+        <small>&copy; Jin portfolio 2020.</small>
+      </div>
+    </footer>
+
+    <div class="scroll-top">
+      <i class="fas fa-arrow-circle-up fa-3x"></i>
+    </div>
+  </div>
+      
+  <script src='jquery-3.5.0.min.js'></script>
+  <script src="parallax.min.js"></script>
+  <script src='main.js'></script>
+</body>
+
+</html>
+

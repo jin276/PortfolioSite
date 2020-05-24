@@ -1,0 +1,114 @@
+@media screen and (max-width:700px) {
+  .header-list {
+    display: none;
+  } 
+  
+  /* Side bar */
+   .side-bar-menu {
+    display: block;
+    position: fixed;
+    top: 0;
+    right: 0;
+    width: 100%;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, .7);
+    transform: translateX(100%);
+    transition: .3s ease-out;
+    z-index: 33;
+      
+      ul {
+        box-sizing: border-box;
+        padding: 25px;
+      }
+      li {
+        padding: 15px 0;
+        list-style: none;
+      }
+      a {
+        color: #fff;
+        font-size: 25px;
+        font-weight: bold;
+        text-decoration: none;
+          &:hover {
+            text-decoration: underline;
+          }
+      }
+  }
+  .side-bar-menu.current {
+    transform: translateX(0px);
+    transition: .3s ease-out;
+  }
+  .button {
+    position: absolute;
+    top: 2.5%;
+    right: 10%;
+    width: 50px;
+    height: 50px;
+    background: rgba(0, 0, 0, .5);
+    border-radius: 50%;
+    z-index: 50;
+      &:hover {
+        transition-duration: .3s;
+        transform: scale(1.2);
+      }
+
+      div {
+        width: 30px;
+        height: 3px;
+        margin: 0 auto;
+        display: block;
+        background: #fff;
+        transition: all .3s ease;
+          &:nth-child(1) {
+            margin-top: 15px;
+          }
+          &:nth-child(2) {
+            margin-top: 5px;
+          }
+          &:nth-child(3) {
+            margin-top: 5px;
+          }
+        
+      }
+
+  }
+  .button.current div:nth-child(1) {
+    transform: translateY(9px) rotate(-135deg);
+    transition-duration: .3s ease-out;
+  }
+  .button.current div:nth-child(2) {
+    display: none;
+  }
+  .button.current div:nth-child(3) {
+    transform: translateY(0px) rotate(-225deg);
+    transition-duration: .3s ease-out;
+  }
+  
+  .product-inner {
+    width: 95%;
+    height: 250px;
+    margin: 0 auto;
+    .image-inner {
+      width: 70%;
+      margin: 15px;
+      .image-hover {
+        p {
+          font: {
+            size: 18px;
+          }
+        }
+      }
+    }
+  }
+}
+@media screen and (max-width:500px) {
+  .summary-container {
+    width: 80%;
+  }
+  .image2 {
+    width: 80%;
+  }
+}
+@media screen and (max-width:500px) {
+ 
+}
